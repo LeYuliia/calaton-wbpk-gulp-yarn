@@ -1,0 +1,19 @@
+@import '../../styles/variables.scss';
+@import '../../styles/placeholders.scss';
+
+
+.overlay {
+    @extend %flex-center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: $max-width;
+    height: $max-heigth;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 1200;
+}
+
+.modal img {
+    max-width: $secondary-max-width;
+    max-height: $secondary-max-height;
+}
